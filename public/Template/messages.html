@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unpamgram - Messages</title>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+    <div class="messages-layout">
+        <!-- Sidebar Navigation Kiri -->
+        <aside class="sidebar-left">
+            <div class="sidebar-top">
+                <div class="brand">
+                    <a href="index.html" class="brand-link">
+                        <i class="fa-solid fa-graduation-cap logo-icon"></i>
+                        <span class="logo-text">Unpamgram</span>
+                    </a>
+                </div>
+
+                <nav class="nav-menu">
+                    <a href="index.html" class="nav-item" title="Home">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="explore.html" class="nav-item" title="Explore">
+                        <i class="fa-regular fa-compass"></i>
+                        <span>Explore</span>
+                    </a>
+                    <a href="reels.html" class="nav-item" title="Reels">
+                        <i class="fa-solid fa-clapperboard"></i>
+                        <span>Reels</span>
+                    </a>
+                    <a href="messages.html" class="nav-item active" title="Messages">
+                        <i class="fa-regular fa-paper-plane"></i>
+                        <span>Messages</span>
+                        <span class="nav-badge">5</span>
+                    </a>
+                    <a href="#" class="nav-item" id="openNotifBtn" title="Notifications">
+                        <i class="fa-regular fa-heart"></i>
+                        <span>Notifications</span>
+                    </a>
+                    <a href="#" class="nav-item" id="openUploadBtn" title="Create">
+                        <i class="fa-regular fa-square-plus"></i>
+                        <span>Create</span>
+                    </a>
+                    <a href="profile.html" class="nav-item" title="Profile">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Profile" class="user-avatar-mini">
+                        <span>Profile</span>
+                    </a>
+                </nav>
+            </div>
+
+            <div class="sidebar-bottom">
+                <a href="#" class="nav-item" title="More">
+                    <i class="fa-solid fa-bars"></i>
+                    <span>More</span>
+                </a>
+            </div>
+        </aside>
+
+        <!-- Panel Daftar Pesan Kiri -->
+        <section class="chat-sidebar">
+            <div class="chat-sidebar-header">
+                <div class="account-dropdown">
+                    <span>dimasafzal_</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <button class="new-message-btn" title="New Message"><i class="fa-regular fa-pen-to-square"></i></button>
+            </div>
+
+            <div class="chat-tabs">
+                <a href="#" class="chat-tab active">Primary</a>
+                <a href="#" class="chat-tab">General</a>
+                <a href="#" class="chat-tab">Requests (2)</a>
+            </div>
+
+            <div class="notes-container">
+                <div class="note-item">
+                    <div class="note-bubble">Your note</div>
+                    <div class="note-avatar-wrapper">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Note">
+                    </div>
+                    <span class="note-name">Your note</span>
+                </div>
+                <div class="note-item">
+                    <div class="note-bubble">505 Arctic</div>
+                    <div class="note-avatar-wrapper">
+                        <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=150&q=80" alt="Note">
+                    </div>
+                    <span class="note-name">M</span>
+                </div>
+                <div class="note-item">
+                    <div class="note-bubble">0%</div>
+                    <div class="note-avatar-wrapper">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Note">
+                    </div>
+                    <span class="note-name">lail</span>
+                </div>
+                <div class="note-item">
+                    <div class="note-bubble">Innocence</div>
+                    <div class="note-avatar-wrapper">
+                        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&q=80" alt="Note">
+                    </div>
+                    <span class="note-name">tiramiisu</span>
+                </div>
+            </div>
+
+            <div class="conversation-list">
+                <div class="conversation-item">
+                    <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&w=150&q=80" alt="Avatar" class="conv-avatar">
+                    <div class="conv-info">
+                        <span class="conv-name">SAHABAT YESUS</span>
+                        <span class="conv-preview">4+ new messages • 5h</span>
+                    </div>
+                    <div class="unread-dot"></div>
+                </div>
+
+                <div class="conversation-item active">
+                    <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=150&q=80" alt="Avatar" class="conv-avatar">
+                    <div class="conv-info">
+                        <span class="conv-name">abimm</span>
+                        <span class="conv-preview">abimm sent an attachment. • 10h</span>
+                    </div>
+                    <div class="unread-dot"></div>
+                </div>
+
+                <div class="conversation-item">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Avatar" class="conv-avatar">
+                    <div class="conv-info">
+                        <span class="conv-name">Pujangga.Kedaung</span>
+                        <span class="conv-preview">Pujangga.Kedaung sent an attachment. • 3d</span>
+                    </div>
+                </div>
+
+                <div class="conversation-item">
+                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&q=80" alt="Avatar" class="conv-avatar">
+                    <div class="conv-info">
+                        <span class="conv-name">keyy9ᵉ°*</span>
+                        <span class="conv-preview">Dua duanyaa wiwhaowhao • 5d</span>
+                    </div>
+                    <div class="unread-dot"></div>
+                </div>
+
+                <div class="conversation-item">
+                    <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=150&q=80" alt="Avatar" class="conv-avatar">
+                    <div class="conv-info">
+                        <span class="conv-name">keyla</span>
+                        <span class="conv-preview">Sent a reel by fira.pn • 1w</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Area Ruang Chat Kanan -->
+        <main class="chat-room-area">
+            <header class="chat-room-header">
+                <div class="chat-recipient-profile">
+                    <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=150&q=80" alt="abimm" class="recipient-avatar">
+                    <div class="recipient-meta">
+                        <span class="recipient-name">abimm</span>
+                        <span class="recipient-username">abn_ahmadbima</span>
+                    </div>
+                </div>
+                <div class="chat-room-actions">
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-video"></i>
+                    <i class="fa-solid fa-circle-info"></i>
+                </div>
+            </header>
+
+            <div class="chat-messages-body">
+                <div class="chat-timestamp">Tue 5:34 PM</div>
+
+                <div class="message-bubble-media">
+                    <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=600&q=80" alt="Attachment" class="message-media-img">
+                </div>
+            </div>
+
+            <footer class="chat-input-footer">
+                <div class="chat-input-wrapper">
+                    <input type="text" placeholder="Message..." class="chat-text-input">
+                    <div class="chat-input-icons">
+                        <i class="fa-solid fa-microphone"></i>
+                        <i class="fa-regular fa-image"></i>
+                        <i class="fa-regular fa-face-smile"></i>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <!-- ==========================================================
+       MODAL CREATE NEW POST (INSTAGRAM STYLE)
+       ========================================================== -->
+    <div class="modal-backdrop" id="uploadModal">
+        <button class="global-modal-close" id="closeUploadBtn">&times;</button>
+        
+        <div class="modal-box-create" id="modalBoxCreate">
+            <!-- Header Modal -->
+            <div class="modal-create-header">
+                <button class="modal-back-btn" id="modalBackBtn"><i class="fa-solid fa-arrow-left"></i></button>
+                <h3>Create new post</h3>
+                <button class="share-post-btn" id="submitPostBtn">Share</button>
+            </div>
+
+            <!-- Tahap 1: Pilih / Drag File -->
+            <div class="create-step-1" id="createStep1">
+                <div class="upload-icon-wrapper">
+                    <i class="fa-regular fa-images"></i>
+                </div>
+                <div class="upload-title">Drag photos and videos here</div>
+                <input type="file" id="imageInput" accept="image/*" class="file-input" style="display: none;">
+                <button class="select-file-btn" id="triggerSelectFile">Select from computer</button>
+            </div>
+
+            <!-- Tahap 2: Tampilan Preview + Caption Form -->
+            <div class="create-step-2" id="createStep2">
+                <!-- Sisi Kiri Preview Media -->
+                <div class="editor-preview-side">
+                    <div class="tag-tooltip">Click photo to tag people</div>
+                    <img src="" alt="Preview" class="editor-preview-img" id="editorPreviewImg">
+                </div>
+
+                <!-- Sisi Kanan Input Caption & Meta -->
+                <div class="editor-form-side">
+                    <div class="creator-mini-profile">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Avatar" class="creator-mini-avatar">
+                        <span class="creator-mini-name">dimasafzal_</span>
+                    </div>
+
+                    <textarea class="caption-textarea" id="captionInput" placeholder="Write a caption..."></textarea>
+
+                    <div class="form-meta-tools">
+                        <i class="fa-regular fa-face-smile" style="font-size: 18px; cursor: pointer;"></i>
+                        <span id="charCounter">0/2,200</span>
+                    </div>
+
+                    <div class="meta-options-list">
+                        <div class="meta-option-item">
+                            <span>Add location</span>
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="meta-option-item">
+                            <span>Accessibility</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="meta-option-item">
+                            <span>Advanced settings</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- POPUP NOTIFICATIONS FLYOUT PANEL -->
+    <div class="notif-backdrop" id="notifBackdrop"></div>
+    <div class="notif-popup-panel" id="notifPopupPanel">
+        <div class="notif-header">
+            <h2>Notifications</h2>
+            <button class="close-notif-btn" id="closeNotifBtn">&times;</button>
+        </div>
+
+        <div class="notif-filters">
+            <button class="filter-chip active">All</button>
+            <button class="filter-chip">People you follow</button>
+            <button class="filter-chip">Comments</button>
+            <button class="filter-chip">Follows</button>
+        </div>
+
+        <div class="notif-body">
+            <div class="notif-section-title">Today</div>
+            
+            <div class="notif-item">
+                <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&w=150&q=80" alt="User" class="notif-avatar">
+                <div class="notif-content">
+                    <strong>hzmsyah, firdaus_1533</strong> and 3 others liked your comment: @kutilang28 ketika ketahuan... <span class="notif-time">4h</span>
+                </div>
+                <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=150&q=80" alt="Post" class="notif-thumbnail">
+            </div>
+
+            <div class="notif-section-title" style="margin-top: 12px;">This month</div>
+
+            <div class="notif-item">
+                <div class="notif-avatar" style="background: linear-gradient(135deg, #008DDA, #1E3E62); display: flex; align-items: center; justify-content: center; color: white;">
+                    <i class="fa-solid fa-infinity"></i>
+                </div>
+                <div class="notif-content">
+                    You're now using a Meta Account on Instagram. <span class="notif-time">Oct 16</span>
+                </div>
+            </div>
+
+            <div class="notif-item">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="User" class="notif-avatar">
+                <div class="notif-content">
+                    <strong>rima_frz</strong> started following you. <span class="notif-time">Oct 13</span>
+                </div>
+                <button class="notif-action-btn following">Following</button>
+            </div>
+
+            <div class="notif-section-title" style="margin-top: 12px;">Earlier</div>
+
+            <div class="notif-item">
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&q=80" alt="User" class="notif-avatar">
+                <div class="notif-content">
+                    <strong>pkm.pujanggakedaung</strong> started following you. <span class="notif-time">Sep 25</span>
+                </div>
+                <button class="notif-action-btn following">Following</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
